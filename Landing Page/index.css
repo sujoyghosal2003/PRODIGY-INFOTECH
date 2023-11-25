@@ -1,0 +1,24 @@
+@import url('BgColor.JPEG');
+
+body {
+    scrollbar-width: 0;
+    background: url(BgColor.JPEG);
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.sectiontop{
+    width: 100%;
+    height: 100%;    
+    overflow: hidden;
+    position: relative;
+    background-image: url(BgColor.JPEG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation: change 10s infinite ease-in-out;
+}
